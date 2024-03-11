@@ -1,0 +1,30 @@
+{
+  "name": "visionary-server",
+  "version": "1.0.0",
+  "description": "Backend functions for the Visionary app",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chelseyful/visionary.git"
+  },
+  "keywords": [
+    "serverless"
+  ],
+  "author": "Chelsey Ingersoll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chelseyful/visionary/issues"
+  },
+  "homepage": "https://github.com/chelseyful/visionary#readme",
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^3.3.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
