@@ -5,8 +5,9 @@ variable "project" {
 }
 
 variable "env" {
-  type  = string
+  type = string
   description = "Environment prefix to deploy to. (prod, dev, sandbox)"
+  default = "dev"
 }
 
 variable "region" {
