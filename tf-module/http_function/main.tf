@@ -24,7 +24,7 @@ resource "google_storage_bucket_object" "function_archive" {
 
 data "archive_file" "function" {
   type        = "zip"
-  output_path = "${path.module}/temp/${var.function_name}.zip"
+  output_path = "${var.temp_folder}/${var.function_name}.zip"
   source_content = data.local_file.function_source.content
   source_content_filename = "function.js"
 }
