@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "debug": "functions-framework --target=httpFunction --port=8080 --source=dist/",
+    "debug": "functions-framework --target=debug --port=8080 --source=dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

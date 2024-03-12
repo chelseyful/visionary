@@ -5,6 +5,7 @@ module.exports = {
     target: "node",
     entry: {
         echo: './src/echo.ts',
+        function: './src/function.ts',
     },
     optimization: {
         //minimize: false, // Disable minimization to prevent tree shaking
@@ -26,7 +27,7 @@ module.exports = {
     /*devtool: 'eval-source-map',*/
     output: {
         publicPath: 'dist',
-        filename: '[name].bundle.js',
+        //filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist'),
         libraryTarget: 'commonjs2',
     },
